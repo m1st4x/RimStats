@@ -255,8 +255,4 @@ paket-files/
 __pycache__/
 *.pyc
 
-/Assemblies/*
-!/Assemblies/RimStory.dll
-
-/RimStory.sln
-/Source/RimStory.csproj
+/Source/Assemblies/*
