@@ -2,7 +2,7 @@
 <Defs>
     <MainButtonDef>
         <defName>MainButton_RimStats</defName>
-        <label>Weapons</label>
+        <label>RimStats</label>
         <description>RimStats</description>
         <tabWindowClass>RimStats.MainTabWindow_WeaponStats</tabWindowClass>
         <order>60</order>
