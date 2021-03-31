@@ -58,7 +58,7 @@ namespace RimStats
             Name
         }
         private Source sortSource = Source.Name;
-        ///*
+        
         private struct colDef1
         {
             public string label;
@@ -82,7 +82,7 @@ namespace RimStats
                 this.property = "";
             }
         }
-        //*/
+        
         private StatDef sortDef;
 
         // Data storage
@@ -628,15 +628,13 @@ namespace RimStats
             GUI.color = new Color(1f, 1f, 1f, 0.2f);
             Widgets.DrawLineHorizontal(0, HEADER_HEIGHT, inRect.width);
             GUI.color = Color.white;
-            printCellSort("label", "Name", ww, LABEL_WIDTH);
+            printCellSortStuff("label", "Name", ww, LABEL_WIDTH);
             ww += LABEL_WIDTH;
-            ///*
             foreach (colDef1 h in colHeaders)
             {
                 printCellSortStuff(h.statDef.defName, h.statDef, h.source, h.label, ww);
                 ww += STAT_WIDTH_STUFF;
             }
-            //*/
             /*
             foreach (colDef h in stuffHeaders)
             {
@@ -1026,7 +1024,7 @@ namespace RimStats
                 GUI.DrawTexture(tmpRec, TexUI.HighlightTex);
             }
         }
-        ///*
+        
         private void printCellSortStuff(string sortProperty, StatDef sortDef, Source sortSource, string content, int x, int width = STAT_WIDTH_STUFF)
         {
             Rect tmpRec = new Rect(x + 2, 2, width - 2, HEADER_HEIGHT - 2);
@@ -1062,7 +1060,7 @@ namespace RimStats
                 GUI.DrawTexture(p, texture2D);
             }
         }
-        //*/
+        
         protected void printCellSort(WeaponsTab page, string sortProperty, string content, int x, int width = STAT_WIDTH)
         {
             Rect tmpRec = new Rect(x, 2, 25, 25);
@@ -1098,7 +1096,7 @@ namespace RimStats
             }
         }
 
-        private void printCellSort(string sortProperty, string content, int x, int width = STAT_WIDTH)
+        private void printCellSortStuff(string sortProperty, string content, int x, int width = STAT_WIDTH)
         {
             Rect tmpRec = new Rect(x + 2, 2, width - 2, HEADER_HEIGHT - 2);
             Widgets.Label(tmpRec, content);
@@ -1119,7 +1117,7 @@ namespace RimStats
                     this.sortSource = Source.Name;
                 }
 
-                this.isDirty = true;
+                this.isDirtyStuff = true;
             }
 
             if (this.sortProperty == sortProperty)

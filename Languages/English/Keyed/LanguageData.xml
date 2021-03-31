@@ -64,11 +64,11 @@
 	<StuffList.Base.ArmorHeat>Armor - Heat</StuffList.Base.ArmorHeat>
 	<StuffList.Base.InsulCold>Cold Insulation</StuffList.Base.InsulCold>
 	<StuffList.Base.InsulHot>Heat Insulation</StuffList.Base.InsulHot>
-	<StuffList.Base.DmgSharp>Sharp Damage %</StuffList.Base.DmgSharp>
-	<StuffList.Base.DmgBlunt>Blunt Damage %</StuffList.Base.DmgBlunt>
+	<StuffList.Base.DmgSharp>Sharp Damage</StuffList.Base.DmgSharp>
+	<StuffList.Base.DmgBlunt>Blunt Damage</StuffList.Base.DmgBlunt>
 	<StuffList.Offset.Beauty>+ Beauty</StuffList.Offset.Beauty>
-	<StuffList.Factor.MaxHP>% Max HP</StuffList.Factor.MaxHP>
-	<StuffList.Factor.Beauty>% Beauty</StuffList.Factor.Beauty>
+	<StuffList.Factor.MaxHP>Max HP</StuffList.Factor.MaxHP>
+	<StuffList.Factor.Beauty>Beauty</StuffList.Factor.Beauty>
 	<StuffList.Factor.WorkMake>Work to Make</StuffList.Factor.WorkMake>
 	<StuffList.Factor.WorkBuild>Work to Build</StuffList.Factor.WorkBuild>
 	<StuffList.Factor.Flammability>Flamma- bility</StuffList.Factor.Flammability>
