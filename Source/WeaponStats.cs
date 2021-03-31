@@ -6,7 +6,7 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 
-namespace WeaponStats
+namespace RimStats
 {
     public class MainTabWindow_WeaponStats : MainTabWindow
     {
@@ -1758,22 +1758,22 @@ namespace WeaponStats
 
             List<TabRecord> list = new List<TabRecord>();
             list.Add(new TabRecord("WeaponStats.Ranged".Translate(),
-                delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Ranged; }, this.curTab == WeaponsTab.Ranged));
+                delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Ranged; }, this.curTab == WeaponsTab.Ranged));
             list.Add(new TabRecord("WeaponStats.Melee".Translate(),
-                delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Melee; }, this.curTab == WeaponsTab.Melee));
+                delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Melee; }, this.curTab == WeaponsTab.Melee));
             list.Add(new TabRecord("WeaponStats.Grenades".Translate(),
-                delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Grenades; }, this.curTab == WeaponsTab.Grenades));
+                delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Grenades; }, this.curTab == WeaponsTab.Grenades));
             list.Add(new TabRecord("WeaponStats.Apparel".Translate(),
-                delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Apparel; }, this.curTab == WeaponsTab.Apparel));
+                delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Apparel; }, this.curTab == WeaponsTab.Apparel));
             list.Add(new TabRecord("Stuff",
-                delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Stuff; }, this.curTab == WeaponsTab.Stuff));
+                delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Stuff; }, this.curTab == WeaponsTab.Stuff));
 
             if (Prefs.DevMode && false)
             {
                 list.Add(new TabRecord("WeaponStats.Tools".Translate(),
-                    delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Tools; }, this.curTab == WeaponsTab.Tools));
+                    delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Tools; }, this.curTab == WeaponsTab.Tools));
                 list.Add(new TabRecord("WeaponStats.Other".Translate(),
-                    delegate { this.curTab = WeaponStats.MainTabWindow_WeaponStats.WeaponsTab.Other; },
+                    delegate { this.curTab = RimStats.MainTabWindow_WeaponStats.WeaponsTab.Other; },
                     this.curTab == WeaponsTab.Other));
             }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 
-namespace WeaponStats
+namespace RimStats
 {
     public class Apparel : Weapon
     {

@@ -1,7 +1,7 @@
 using Verse;
 using RimWorld;
 
-namespace WeaponStats
+namespace RimStats
 {
     public class ToolWeapon : Weapon
     {
